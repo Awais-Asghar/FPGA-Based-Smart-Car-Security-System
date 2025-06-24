@@ -112,7 +112,7 @@ These values are stored in memory and can be reprogrammed at runtime.
 - [x] **LED Indicator**: Correct status signal behavior (blinking, solid, off)
 - [x] **Debouncer**: Inputs free from glitches or spurious toggles
 - [x] **Time Reprogrammability**: Parameters updated and reflected immediately
-- [x] **Testbenches**: Each module tested independently in ModelSim
+- [x] **Testbenches**: Each module tested independently in ModelSim Altera
 
 ---
 
