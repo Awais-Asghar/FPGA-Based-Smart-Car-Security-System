@@ -19,7 +19,7 @@ A concealed and reprogrammable smart anti-theft system designed using Verilog HD
 ## How the System Works 
 Think of the system like a guard dog that:
 o	Sleeps quietly until you leave the house.
-o	Starts watching when the house is empty.
+o	Starts watching when the house is empty. 
 o	If someone opens the door, it gives them a few seconds — if they don’t prove they belong, it starts barking (alarm).
 o	And secretly, it locks the fuel line so even if the thief stops the barking, the car won’t move.
 
