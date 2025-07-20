@@ -1,5 +1,5 @@
 # FPGA-Based-Smart-Car-Security-System
-![Project Status](https://img.shields.io/badge/status-Completed-brightgreen.svg)
+![Project Status](https://img.shields.io/badge/status-Completed-brightgreen.svg) 
 ![Platform](https://img.shields.io/badge/platform-FPGA-blue.svg)
 ![Tool-Vivado](https://img.shields.io/badge/tool-Vivado-ff69b4.svg)
 ![Tool-Quartus](https://img.shields.io/badge/tool-Quartus-9cf.svg)
