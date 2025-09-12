@@ -1,4 +1,4 @@
-# FPGA-Based-Smart-Car-Security-System
+<img width="975" height="775" alt="image" src="https://github.com/user-attachments/assets/1c151e0e-6001-41ed-ac49-867a6cc543ee" /><img width="975" height="273" alt="image" src="https://github.com/user-attachments/assets/937ff154-0305-4107-9f0e-10fc6743c169" /># FPGA-Based-Smart-Car-Security-System
 ![Project Status](https://img.shields.io/badge/status-Completed-brightgreen.svg) 
 ![Platform](https://img.shields.io/badge/platform-FPGA-blue.svg)
 ![Tool-Vivado](https://img.shields.io/badge/tool-Vivado-ff69b4.svg)
@@ -50,7 +50,7 @@ o	And secretly, it locks the fuel line so even if the thief stops the barking, t
 
 ---
 
-## ⏱️ Timing Parameters
+## Timing Parameters
 
 ![Timing Parameters](https://github.com/user-attachments/assets/0e84c2cc-1158-4d03-9f83-7284642f4f3a)
 
@@ -75,34 +75,47 @@ These values are stored in memory and can be reprogrammed at runtime.
 
 ---
 ## RTL Design and Simulation of Testbenches
-## Car Anti Theft Alarm System (main module)
-![main module](https://github.com/user-attachments/assets/572e3cee-2d6d-436a-81fa-87395789121d)
+## Car Anti Theft Alarm System (Top module)
+![Top module](https://github.com/user-attachments/assets/572e3cee-2d6d-436a-81fa-87395789121d)
+<img width="975" height="540" alt="Image" src="https://github.com/user-attachments/assets/db6d19ef-65a5-4a45-a83a-42e0ad94e394" />
 ![Testbench](https://github.com/user-attachments/assets/5673f2d5-7a24-4f29-8798-341f29c60993)
 
 ## Anti-Theft FSM
 ![Anti Theft FSM](https://github.com/user-attachments/assets/ad84820e-78d6-4333-9d7e-b265d9e8b42f)
+<img width="975" height="393" alt="Image" src="https://github.com/user-attachments/assets/c3bb615d-a770-44b9-8aa0-4444cbab4aac" />
 
 ## Fuel Pump Logic
 ![Fuel Pump Logic](https://github.com/user-attachments/assets/e9a33914-d97a-4afa-af29-a2e2ce4c9df5)
 ![Testbench](https://github.com/user-attachments/assets/8e62e9b8-6065-4e26-97d0-4425e8d684e5)
+<img width="975" height="331" alt="Image" src="https://github.com/user-attachments/assets/834132ba-aeca-4305-8db5-1a767fa0225b" />
 
 ## Siren Generator
 ![Siren Generator](https://github.com/user-attachments/assets/96d5bcd0-8522-45dd-b072-28dd37005abe)
 ![Testbench](https://github.com/user-attachments/assets/4bcd9ea0-23d9-469d-b700-6a9bc49e283f)
+<img width="975" height="229" alt="Image" src="https://github.com/user-attachments/assets/ee69c191-7413-4451-983e-9128a1f1c832" />
 
 ## Time Parameters
 ![Time Parameters](https://github.com/user-attachments/assets/7e2aeee6-a185-42db-9071-230e1ce97a2f)
 ![Testbench](https://github.com/user-attachments/assets/b781a824-084c-4ec6-8298-b4f9f626a801)
+<img width="975" height="383" alt="Image" src="https://github.com/user-attachments/assets/dd638d55-6a19-4759-8d1f-bccf2284b8dd" />
 
 ## Timer 1Hz
 ![Timer 1Hz](https://github.com/user-attachments/assets/12f0d55f-ceb1-42c5-85dc-ba6bf004566f)
+<img width="975" height="273" alt="Image" src="https://github.com/user-attachments/assets/87854916-8276-45fb-a8cd-e8fac2df0ede" />
 
 ## Time Parameters With Reprogrammability
 ![Time Parameters With Reprogrammability](https://github.com/user-attachments/assets/7161ec07-8c3a-4cac-b28f-db104ef76070)
 ![Testbench](https://github.com/user-attachments/assets/81136a20-9d49-41a1-9019-a54c0950011d)
+<img width="975" height="775" alt="Image" src="https://github.com/user-attachments/assets/47a038d1-100e-4452-9f2f-3785719629ad" />
 
 ## Debouncer
 ![Debouncer](https://github.com/user-attachments/assets/56f276f6-c0e2-46bb-a01e-d7ff7a6961fe)
+<img width="975" height="327" alt="Image" src="https://github.com/user-attachments/assets/c6aec597-8126-4e47-a2ee-c2f284cdb78d" />
+
+---
+
+## Implementation 
+![Image](https://github.com/user-attachments/assets/0298085f-9bca-4569-ad22-28bbd6daf0e5)
 
 ## Simulation Checklist
 
@@ -121,13 +134,13 @@ These values are stored in memory and can be reprogrammed at runtime.
 
 Below are key results verified from simulations and waveform analyses:
 
-- ✅ **Auto-Arming Delay**: System enters Armed state exactly **6 seconds** after ignition off and all doors closed.
-- ✅ **Driver Door Trigger**: Countdown of **8 seconds** starts upon driver door open. LED solid during countdown.
-- ✅ **Siren Behavior**: Siren asserts if countdown expires, alternating tones confirmed via waveform.
-- ✅ **Fuel Pump Safety**: Fuel pump remains OFF until **brake + hidden switch** are pressed under ignition.
-- ✅ **Parameter Update**: New values loaded during reprogramming reflected instantly in next FSM cycle.
-- ✅ **No Metastability**: Debouncer module ensures all transitions are clean and glitch-free.
-- ✅ **FSM Coverage**: All FSM transitions including resets, armed/triggered/alarm/disarm verified.
+- [x] **Auto-Arming Delay**: System enters Armed state exactly **6 seconds** after ignition off and all doors closed.
+- [x] **Driver Door Trigger**: Countdown of **8 seconds** starts upon driver door open. LED solid during countdown.
+- [x] **Siren Behavior**: Siren asserts if countdown expires, alternating tones confirmed via waveform.
+- [x] **Fuel Pump Safety**: Fuel pump remains OFF until **brake + hidden switch** are pressed under ignition.
+- [x] **Parameter Update**: New values loaded during reprogramming reflected instantly in next FSM cycle.
+- [x] **No Metastability**: Debouncer module ensures all transitions are clean and glitch-free.
+- [x] **FSM Coverage**: All FSM transitions including resets, armed/triggered/alarm/disarm verified.
 
 ---
 
