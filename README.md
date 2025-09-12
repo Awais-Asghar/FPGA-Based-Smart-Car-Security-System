@@ -1,4 +1,4 @@
-<img width="975" height="775" alt="image" src="https://github.com/user-attachments/assets/1c151e0e-6001-41ed-ac49-867a6cc543ee" /><img width="975" height="273" alt="image" src="https://github.com/user-attachments/assets/937ff154-0305-4107-9f0e-10fc6743c169" /># FPGA-Based-Smart-Car-Security-System
+# FPGA-Based-Smart-Car-Security-System
 ![Project Status](https://img.shields.io/badge/status-Completed-brightgreen.svg) 
 ![Platform](https://img.shields.io/badge/platform-FPGA-blue.svg)
 ![Tool-Vivado](https://img.shields.io/badge/tool-Vivado-ff69b4.svg)
