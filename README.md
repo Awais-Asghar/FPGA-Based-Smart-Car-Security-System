@@ -86,18 +86,18 @@ These values are stored in memory and can be reprogrammed at runtime.
 
 ## Fuel Pump Logic
 ![Fuel Pump Logic](https://github.com/user-attachments/assets/e9a33914-d97a-4afa-af29-a2e2ce4c9df5)
-![Testbench](https://github.com/user-attachments/assets/8e62e9b8-6065-4e26-97d0-4425e8d684e5)
 <img width="975" height="331" alt="Image" src="https://github.com/user-attachments/assets/834132ba-aeca-4305-8db5-1a767fa0225b" />
+![Testbench](https://github.com/user-attachments/assets/8e62e9b8-6065-4e26-97d0-4425e8d684e5)
 
 ## Siren Generator
 ![Siren Generator](https://github.com/user-attachments/assets/96d5bcd0-8522-45dd-b072-28dd37005abe)
-![Testbench](https://github.com/user-attachments/assets/4bcd9ea0-23d9-469d-b700-6a9bc49e283f)
 <img width="975" height="229" alt="Image" src="https://github.com/user-attachments/assets/ee69c191-7413-4451-983e-9128a1f1c832" />
+![Testbench](https://github.com/user-attachments/assets/4bcd9ea0-23d9-469d-b700-6a9bc49e283f)
 
 ## Time Parameters
 ![Time Parameters](https://github.com/user-attachments/assets/7e2aeee6-a185-42db-9071-230e1ce97a2f)
-![Testbench](https://github.com/user-attachments/assets/b781a824-084c-4ec6-8298-b4f9f626a801)
 <img width="975" height="383" alt="Image" src="https://github.com/user-attachments/assets/dd638d55-6a19-4759-8d1f-bccf2284b8dd" />
+![Testbench](https://github.com/user-attachments/assets/b781a824-084c-4ec6-8298-b4f9f626a801)
 
 ## Timer 1Hz
 ![Timer 1Hz](https://github.com/user-attachments/assets/12f0d55f-ceb1-42c5-85dc-ba6bf004566f)
@@ -105,8 +105,8 @@ These values are stored in memory and can be reprogrammed at runtime.
 
 ## Time Parameters With Reprogrammability
 ![Time Parameters With Reprogrammability](https://github.com/user-attachments/assets/7161ec07-8c3a-4cac-b28f-db104ef76070)
-![Testbench](https://github.com/user-attachments/assets/81136a20-9d49-41a1-9019-a54c0950011d)
 <img width="975" height="775" alt="Image" src="https://github.com/user-attachments/assets/47a038d1-100e-4452-9f2f-3785719629ad" />
+![Testbench](https://github.com/user-attachments/assets/81136a20-9d49-41a1-9019-a54c0950011d)
 
 ## Debouncer
 ![Debouncer](https://github.com/user-attachments/assets/56f276f6-c0e2-46bb-a01e-d7ff7a6961fe)
